@@ -1,21 +1,8 @@
 # Instabot
 
-**TODO: Add description**
+Pushing warnings from MSB to instagram to reach tourists who might not be up to date with local news!
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `instabot` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:instabot, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/instabot](https://hexdocs.pm/instabot).
+Example:
+![fire-info](static/images/brand1.jpg)
+![fire-info-step-2](static/images/brand2.jpg)
 
