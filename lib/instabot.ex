@@ -28,11 +28,11 @@ defmodule Instabot do
 
   end
 
-  def generateImage(text, type) do
+  def generateImage(text) do
     open("./static/images/brand-raw.jpg")
-    |> custom("pointsize", "49")
+    |> custom("pointsize", "60")
     |> custom("fill", "#ffcc44")
-    |> Mogrify.Draw.text(30, 30, "Varningstexten")
+    |> Mogrify.Draw.text(60, 100, text)
     |> save(path: "./static/images/other.jpg")
   end
 end
