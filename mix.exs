@@ -14,7 +14,7 @@ defmodule Instabot.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :httpotion]
+      extra_applications: [:logger, :httpotion, :mogrify_draw]
     ]
   end
 
@@ -23,7 +23,8 @@ defmodule Instabot.MixProject do
     [
       {:httpotion, "~> 3.1.1"},
       {:poison, "~> 4.0.1"},
-      {:mogrify, "~> 0.7.2"}
+      {:mogrify, "~> 0.5.4"},
+      {:mogrify_draw, "~> 0.1.0"}
     ]
   end
 end
